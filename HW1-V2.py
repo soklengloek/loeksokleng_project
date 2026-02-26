@@ -1,0 +1,15 @@
+def salary():
+    emp_id = int(input("Enter ID : "))
+    name = input("Enter Name : ")
+    sex = input("Enter Sex : ")
+    num = int(input("Enter Num_Hour : "))
+    rate = int(input("Enter Rate_Hour : "))
+    salary = num * rate
+    print("=======================")
+    print("ID : ", emp_id)
+    print("Name : ", name)
+    print("Sex : ", sex)
+    print("Number_hour : ", num)
+    print("RatePerHour : $", rate)
+    print("Salary : $", salary)
+salary()
